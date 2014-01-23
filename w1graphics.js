@@ -38,7 +38,7 @@ function drawCCircles (array) {
 
 function drawOneCircle(x, y, radius) {
 		ctx.beginPath();
-		ctx.arc(400*x+100,200,radius,0,2*Math.PI);
+		ctx.arc(x,y,radius,0,2*Math.PI);
 		ctx.stroke();	
 }
 // Helper function
