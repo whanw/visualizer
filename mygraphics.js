@@ -5,9 +5,10 @@
 //         - refers to "ctx" which is defined in sound.js 
 function initFreqBars() {
 		// get the context from the canvas to draw on
-	    canv.setAttribute("width", window.innerWidth - 50);
-	    canv.setAttribute("height", 325);
+	    canv.setAttribute("width", window.innerWidth - 225);
+	    canv.setAttribute("height", window.innerHeight -200 );
 	    canv.setAttribute("style", "background:black");
+	    canv.setAttribute("style", "border:3px solid #A9BCF5; background:black" );
 		//create gradient for the bins
 		gradient = ctx.createLinearGradient(0,0,0,300);
 		gradient.addColorStop(1,'#000000'); //black
